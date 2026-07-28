@@ -29,26 +29,12 @@ The project demonstrates the full analytics lifecycle:
 
 ## 🗂️ Project Structure
 
-```
-PrimeViz-ECommerce-Sales-Analysis/
-│
-├── data/
-│   └── amazon_sales_2025.csv          # Cleaned source dataset
-│
-├── sql/
-│   └── full_analysis.sql              # Complete SQL script (DDL + EDA + 10 business questions)
-│
-├── powerbi/
-│   └── sales2025.pbit                 # Power BI template (open with Power BI Desktop)
-│
-├── docs/
-│   ├── insights.md                    # Key findings & business recommendations
-│   └── technical_notes.md             # Technical documentation
-│
-├── assets/                            # Screenshots & visuals
-│
-└── README.md
-```
+- The project is organized into clear folders for easy navigation.
+- The data folder contains the cleaned source dataset named amazon_sales_2025.csv.
+- The sql folder holds all the SQL scripts. It includes the database setup script, the complete business analysis queries covering all ten questions, and the original full analysis script.
+- The powerbi folder contains the Power BI template file (sales2025.pbit) along with a short guide on how to open and use the dashboard.
+- The docs folder includes two important documents — insights.md which covers the key findings and business recommendations, and technical_notes.md which explains the technical design decisions and methods used in the project.
+- There is also an assets folder reserved for dashboard screenshots and other visual materials.
 
 ---
 
