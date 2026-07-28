@@ -2,16 +2,20 @@
 *.sql linguist-detectable=true
 *.sql linguist-language=SQL
 
-# Power BI temporary files
-*.pbix
-*.pbit.bak
-~$*
+# Normalize line endings for all text files
+* text=auto
 
-# OS files
-.DS_Store
-Thumbs.db
+# SQL scripts (MySQL queries) should always be treated as text with LF endings
+*.sql text eol=lf diff=sql
 
-# IDE
-.vscode/
-.idea/
-*.swp
+# CSV data files treated as text with LF endings
+*.csv text eol=lf
+
+# Power BI project files are binary (no diff/merge)
+*.pbix binary
+
+# Documentation normalized
+*.md text eol=lf
+
+# Logs treated as text
+*.log text
