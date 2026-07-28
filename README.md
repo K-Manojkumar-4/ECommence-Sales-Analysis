@@ -113,7 +113,7 @@ The Power BI dashboard contains **4 professional pages**:
 mysql -u root -p
 
 # Run the full script
-source sql/full_analysis.sql
+source sql/amazon 2025.sql
 ```
 
 ### 2. Power BI Dashboard
@@ -156,12 +156,6 @@ The cleaned dataset is available at:
 - Cancellation prediction model  
 - Real-time dashboard with DirectQuery  
 - Automated data pipeline (Python + Airflow)
-
----
-
-## 📄 License
-
-This project is intended for educational and portfolio purposes.
 
 ---
 
