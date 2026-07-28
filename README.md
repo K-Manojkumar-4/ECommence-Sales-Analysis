@@ -63,19 +63,6 @@ PrimeViz-ECommerce-Sales-Analysis/
 
 ---
 
-## 📊 Dashboard Pages
-
-The Power BI dashboard contains **4 professional pages**:
-
-| # | Page Name              | Purpose                                      |
-|---|------------------------|----------------------------------------------|
-| 1 | **Overview**           | Executive KPIs, Category mix, Monthly trend  |
-| 2 | **Sales Analysis**     | Product performance, Category contribution   |
-| 3 | **Customer Insights**  | Top customers, Geographic sales distribution |
-| 4 | **Operations**         | Payment methods, Order status & cancellations|
-
----
-
 ## 🔑 Key Business Questions Solved (SQL)
 
 1. Completed orders in March 2025  
@@ -88,6 +75,19 @@ The Power BI dashboard contains **4 professional pages**:
 8. Top 5 cities by sales + average order value  
 9. Monthly sales trend (Feb–Apr 2025)  
 10. Top 3 products per category using `DENSE_RANK()` (Window Function)
+
+---
+
+## 📊 Dashboard Pages
+
+The Power BI dashboard contains **4 professional pages**:
+
+| # | Page Name              | Purpose                                      |
+|---|------------------------|----------------------------------------------|
+| 1 | **Overview**           | Executive KPIs, Category mix, Monthly trend  |
+| 2 | **Sales Analysis**     | Product performance, Category contribution   |
+| 3 | **Customer Insights**  | Top customers, Geographic sales distribution |
+| 4 | **Operations**         | Payment methods, Order status & cancellations|
 
 ---
 
