@@ -1,7 +1,3 @@
-# Force GitHub to count SQL files in the language stats
-*.sql linguist-detectable=true
-*.sql linguist-language=SQL
-
 # Normalize line endings for all text files
 * text=auto
 
