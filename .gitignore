@@ -1,13 +1,56 @@
-# Power BI temporary files
+# ==============================
+# PrimeViz E-Commerce Sales Analysis
+# .gitignore
+# ==============================
+
+# Power BI temporary & backup files
 *.pbix
 *.pbit.bak
 ~$*
+*.tmp
+*.log
 
-# OS files
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# IDE
+# Editor and IDE files
 .vscode/
 .idea/
 *.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Python cache (if any scripts added later)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# MySQL related
+*.sql~
+*.bak
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+# Compressed files (optional)
+*.zip
+*.rar
+*.7z
+
+# Local environment files
+.env
+.env.local
