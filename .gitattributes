@@ -1,17 +1,35 @@
-# Normalize line endings for all text files
+# ==============================
+# PrimeViz E-Commerce Sales Analysis
+# .gitattributes
+# ==============================
+
+# Set default behavior to automatically normalize line endings
 * text=auto
 
-# SQL scripts (MySQL queries) should always be treated as text with LF endings
-*.sql text eol=lf diff=sql
+# Explicitly declare text files
+*.md      text
+*.sql     text
+*.csv     text
+*.txt     text
+*.json    text
+*.yml     text
+*.yaml    text
 
-# CSV data files treated as text with LF endings
-*.csv text eol=lf
+# Power BI files - treat as binary
+*.pbix    binary
+*.pbit    binary
 
-# Power BI project files are binary (no diff/merge)
-*.pbix binary
+# Images
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.svg     text
 
-# Documentation normalized
-*.md text eol=lf
+# Documents
+*.pdf     binary
+*.docx    binary
+*.xlsx    binary
 
-# Logs treated as text
-*.log text
+# Ensure shell scripts use LF
+*.sh      text eol=lf
