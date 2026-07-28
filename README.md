@@ -5,7 +5,7 @@
 ![SQL](https://img.shields.io/badge/SQL-Analysis-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
 
-> Professional end-to-end **E-Commerce Sales Analytics** project combining advanced MySQL analysis with interactive Power BI dashboards.
+> Professional end-to-end **E-Commerce Sales Analytics of Amazon 2025 Sales** project combining advanced MySQL analysis with interactive Power BI dashboards.
 
 ---
 
