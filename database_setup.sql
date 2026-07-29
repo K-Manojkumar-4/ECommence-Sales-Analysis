@@ -7,19 +7,19 @@ DROP DATABASE IF EXISTS amazon_dataset;
 CREATE DATABASE amazon_dataset;
 USE amazon_dataset;
 
-CREATE TABLE amazon_sales (
-    OrderID           VARCHAR(20)    PRIMARY KEY,
-    Date              DATE           NOT NULL,
-    Product           VARCHAR(100)   NOT NULL,
-    Category          VARCHAR(100),
-    Price             DECIMAL(10,2)  NOT NULL,
-    Quantity          INT            NOT NULL,
-    TotalSales        DECIMAL(10,2)  NOT NULL,
-    CustomerName      VARCHAR(100),
-    CustomerLocation  VARCHAR(50),
-    PaymentMethod     VARCHAR(50),
-    Status            VARCHAR(50)
-);
+create table amazon_sales 
+			(
+				OrderID varchar(20) primary key,
+                Date date,
+				Product	varchar(100),
+				Category varchar(100),                               
+                Price decimal(10,2),
+                Quantity int, 
+                TotalSales decimal(10,2),
+				CustomerName varchar(100),	
+                CustomerLocation varchar(50),
+                PaymentMethod varchar(50),
+                Status varchar(50));
 
 -- Load data (adjust path according to your environment)
 -- LOAD DATA INFILE 'data/amazon_sales_2025.csv'
