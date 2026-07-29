@@ -3,6 +3,10 @@
 # .gitattributes
 # ==============================
 
+# Force GitHub to count SQL files in the language stats
+*.sql linguist-detectable=true
+*.sql linguist-language=SQL
+
 # Set default behavior to automatically normalize line endings
 * text=auto
 
