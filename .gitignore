@@ -29,15 +29,6 @@ Desktop.ini
 *.sublime-project
 *.sublime-workspace
 
-# Python cache (if any scripts added later)
-__pycache__/
-*.py[cod]
-*$py.class
-*.egg-info/
-.venv/
-venv/
-env/
-
 # MySQL related
 *.sql~
 *.bak
