@@ -135,6 +135,9 @@ The cleaned dataset is available at:
 
 ---
 
+## Results
+For detailed analysis outcomes, see [RESULTS.md](RESULTS.md).
+
 ## 🔮 Future Enhancements
 
 - RFM Customer Segmentation  
