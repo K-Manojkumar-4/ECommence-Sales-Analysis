@@ -59,7 +59,7 @@ Status is null;
 -- Find all Completed orders placed in March 2025. Show Order ID, Date, Product, and Total Sales. Sort by date descending.
 
 select OrderID , Date , Product , TotalSales from amazon_sales
-where Date like '2025-03-%'
+where Date like '2025-03-%' and Status = 'Completed'
 order by Date desc;
 
 
