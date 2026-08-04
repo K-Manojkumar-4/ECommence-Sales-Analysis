@@ -142,7 +142,7 @@ limit 5;
 -- 9. Monthly Trend
 -- Show monthly total sales and number of orders from February to April 2025. (Group by month)
 
-select date_format(Date , '%m') as month ,
+select date_format(Date , '%Y-%m') as month ,
 sum(TotalSales) as total_sales ,
 count(*) as number_of_orders 
  from amazon_sales
