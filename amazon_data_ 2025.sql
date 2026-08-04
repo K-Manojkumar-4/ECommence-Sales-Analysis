@@ -118,12 +118,17 @@ select PaymentMethod ,
 -- 7. Status-wise Performance
 -- Show the count of orders and total sales for each Status (Completed, Pending, Cancelled). Also calculate the completion rate (Completed / Total Orders * 100).
 
-select Status ,
-count(*) as number_of_orders ,
-sum(TotalSales) as total_sales ,
-round(count(case when Status = 'Completed' then 1 end ) * 100.0 / count(*) ,2) as completion_rate 
-from amazon_sales
-group by Status;
+SELECT 
+    Status,
+    COUNT(*) AS number_of_orders,
+    SUM(TotalSales) AS total_sales,
+    ROUND(
+        (SELECT COUNT(*) FROM amazon_sales WHERE Status = 'Completed') * 100.0 
+        / (SELECT COUNT(*) FROM amazon_sales), 
+        2
+    ) AS overall_completion_rate
+FROM amazon_sales
+GROUP BY Status;
 
 
 -- 8. Location-wise Sales
